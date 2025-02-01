@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: rgb(206, 212, 218);
+}
+
+header {
+    font-size: 150%;
+}
+
+header .nav-item {
+    margin-left: 1rem;
+}
+
+main {
+    border: solid, rgb(1, 0, 64), 10px;
+}
+
+main h1 {
+    display: flex;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    font-size: 75px;
+    margin-top: 30px;
+    margin-left: 36%;
+    color: rgb(1, 0, 64);
+}
+
+main .proyectos div {
+    padding: 5rem;
+    padding-bottom: 5rem;
+    border: rgb(1, 0, 64);
+}
+
+main .proyectos .panel_azul {
+    color: white;
+    background-color: rgb(1, 0, 64);
+}
+
+main .proyectos div img {
+    margin-left: 6.5rem;
+    width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+
+    main h1 {
+        margin-left: 23%;
+    }
+
+    main .proyectos div h2{
+        font-size: 35px;
+    }
+
+    main .proyectos div img {
+        margin-bottom: 1.5rem;
+        margin-left: 9.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    main .proyectos div img {
+        margin-left: 0px;
+        width: 200px;
+    }
+
+    main h1 {
+        margin-left: 32px;
+        font-size: 30px;
+    }
+
+    main .proyectos div{
+        padding-left: 15%;
+    }
+
+    main .proyectos div h2{
+        width: 200px;
+    }
+
+}

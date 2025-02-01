@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: rgb(1, 0, 64);
+}
+
+header {
+    font-size: 150%;
+}
+
+main {
+    background-color: rgb(206, 212, 218);
+    font-size: 25px;
+    padding: 100px;
+    height: 210vh;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 100px;
+    border: dashed, rgb(0, 0, 0), 7px;
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 75px;
+    color: rgb(1, 0, 64);
+}
+
+main p {
+    display: flex;
+    text-align: center;
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+main img {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 35px;
+    border-radius: 100%;
+    border: dashed, rgb(0, 0, 0), 7px;
+}
+
+@media screen and (max-width: 768px) {
+
+    main {
+        height: 2150px;
+        width: 600px;
+        margin-left: 82px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    main {
+        height: 1500px;
+        width: 250px;
+        margin-left: 35px;
+        padding: 20px;
+        border-radius: 40px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    main h1 {
+        font-size: 35px;
+    }
+    
+    main p {
+        font-size: 15px;
+    }
+
+    main img {
+        height: 180px;
+        width: 180px;
+        border: solid, rgb(1, 0, 64);
+    }
+    }
+}

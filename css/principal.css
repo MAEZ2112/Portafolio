@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: rgb(1, 0, 64);
+}
+
+header{
+    font-size: 150%;
+}
+
+header .nav-item{
+    margin-left: 1rem;
+}
+
+main{
+    background-color: rgb(206, 212, 218);
+    font-size: 25px;
+    padding: 100px;
+    height: 92vh;
+    width: 75%;
+}
+main h1
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    font-size: 75px;
+    color:  rgb(1, 0, 64);
+}
+
+main p{
+    text-align: center;
+    transform: translate(-18%, -5%);
+}
+
+div.square img{
+    height: 399px;
+    width: 399px;
+    transform: translate(0%, -5%);
+    padding: 0px;
+    margin: 0px;
+    border: 8px, rgb(1, 0, 64), groove;
+}
+div.square{
+    height: 400px;
+    width: 400px;
+    transform: translate(210%, -90%);
+}
+div.parrafo{
+    transform: translate(80px, 50px);
+    display: inline-flex;
+    padding-right: 100px;
+    width: 300px;
+    font-size: 16px;
+    color:  rgb(1, 0, 64);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+        background-color: rgb(1, 0, 64);
+    }
+    
+    header {
+        font-size: 120%;
+    }
+    
+    main {
+        width: 80%;
+        font-size: 20px;
+        height: 92vh;
+    }
+    
+    main h1 {
+        font-size: 50px;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    main p {
+        text-align: center;
+    }
+    
+    div.square {
+        height: 250px;
+        width: 250px;
+        transform: translate(155%, -120%);
+    }
+    
+    div.square img {
+        height: 250px;
+        width: 250px;
+    }
+    
+    div.parrafo {
+        display: inline-block;
+        width: 49%;
+        font-size: 14px;
+        text-align: center;
+        transform: none;
+        padding: 0px;
+        margin-top: 5%;
+    }
+}
+
+
+@media screen and (max-width: 340px) {
+    body {
+        font-size: 16px;
+
+    }
+    main {
+        width: 100%;
+        padding: 20px;
+        font-size: 16px;
+        height: 120vh;
+        border: dashed, 5px;
+    }
+    
+    main h1 {
+        font-size: 35px;
+        text-align: center;
+        margin-left: 9%;
+    }
+    
+    main p {
+        font-size: 14px;
+        text-align: center;
+        width: 150px;
+        transform: translate(40%, 0%);
+        margin-bottom: 250px;
+    }
+    
+    div.square {
+        display: flex;
+        height: 200px;
+        width: 100%;
+        transform: translate(0%, -210%);
+        justify-content: center;
+    }
+    
+    div.square img {
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+    }
+    
+    div.parrafo {
+        font-size: 12px;
+        width: 95%;
+        margin-bottom: 0px;
+    }
+
+    div.parrafo p{
+        margin-bottom: 15px;
+    }
+}
+
+
