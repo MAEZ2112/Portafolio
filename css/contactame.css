@@ -146,3 +146,70 @@ footer li img{
     height: 90px;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .formulario {
+        height: 660px;
+        width: 600px;
+    }
+
+    .contactarme {
+        height: 115vh;
+    }
+
+    .formulario h2 {
+        margin-bottom: 0px;
+    }
+
+    body footer {
+        height: 100px;
+    }
+
+    body footer ul li{
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 140px;
+        height: 20px;
+    }
+
+    body footer h2{
+        color: rgb(9, 3, 92);
+        transform: translate(100%, 0%);
+        width: 250px;
+        height: 30px;
+    }
+
+    body footer ul {
+        font-size: 20px;
+        transform: translate(-22.5%, 350%);
+        height: 40px;
+    }
+
+    body footer ul li img{
+        transform: translate(-10%, -150%);
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    main .parrafo a {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    body footer ul {
+        font-size: 20px;
+        transform: translate(-15%, 500%);
+        height: 40px;
+    }
+
+    body footer h2{
+        text-align: center;
+        width: 300px;
+        transform: translate(90%, 80%);
+    }
+    
+}
+
